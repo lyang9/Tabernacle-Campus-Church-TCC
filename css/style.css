@@ -1,0 +1,45 @@
+.navbar-brand {
+    font-style: oblique;
+    font-weight: bold;
+    font-size: 20px;
+}
+.subtitle {
+    text-align: center;
+    font-size: 14px;
+    font-style: italic;
+    font-family: cursive;
+}
+
+#nav ul li:hover li {
+    color: deepskyblue;
+}
+
+body {
+    overflow: hidden;
+}
+
+.container {
+    left: 0;
+    line-height: 200px;
+    margin: auto;
+    margin-top: -100px;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+}
+
+h4 {
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
