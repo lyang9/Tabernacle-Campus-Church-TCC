@@ -1,5 +1,6 @@
 .navbar-header .navbar-toggle .icon-bar {
     background-color: blue;
+    position: absolute;
 }
 
 .navbar-brand {
@@ -35,16 +36,27 @@ body {
 
 h4 {
     text-align: center;
+    font-family: Courier;
+    font-size: 25px;
 }
 
-h1 {
+h1, h3 {
     text-align: center;
-}
-
-h3 {
-    text-align: center;
+    font-family: Big Caslon;
+    font-size: 30px;
+    font-weight: bold;
 }
 
 p {
     text-align: center;
+    font-family: Cursive;
+    font-size: medium;
+}
+
+footer {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    padding: 1rem;
 }
