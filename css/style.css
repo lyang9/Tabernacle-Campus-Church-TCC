@@ -1,37 +1,54 @@
+.scrollbar {
+    max-height: 150px;
+    overflow: auto;
+}
 .navbar-header .navbar-toggle .icon-bar {
     background-color: blue;
     position: absolute;
 }
 
-.navbar-brand {
+.navbar-header .navbar-brand {
     font-style: oblique;
     font-weight: bold;
     font-size: 20px;
+    color: dodgerblue;
 }
 .subtitle {
     text-align: center;
     font-size: 14px;
     font-style: italic;
     font-family: cursive;
-}
-.navbar-right li a:hover {
-    -webkit-animation: circle 1.5s ease-in forwards;
+    color: cornflowerblue;
 }
 
-body {
-    background-repeat: no-repeat;
+li {
+    color: blue;
+}
+
+.worship {
+    background : url("../Home.jpg");
+    /*background-repeat: no-repeat;
     -webkit-background-size: cover;
-    background-size: cover;
+    background-size: cover; */
 }
 
-.container {
-    left: 0;
+/*.welcome {
+    left: 0px;
     line-height: 200px;
     margin: auto;
     margin-top: -100px;
-    position: absolute;
     top: 50%;
     width: 100%;
+    position: absolute;
+}
+*/
+
+.welcome {
+    margin-top: 100px;
+}
+
+.welcome p {
+    margin-top: 80px;
 }
 
 h4 {
@@ -55,8 +72,11 @@ p {
 
 footer {
     position: absolute;
+    background-color: #000000;
     bottom: 0px;
     right: 0px;
-    left: 0px;
-    padding: 1rem;
+    left: 0px
+    width: 100%;
+    padding: 2rem;
 }
+
