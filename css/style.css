@@ -1,6 +1,10 @@
+header {
+    z-index: 10;
+}
+
 .navbar-header .navbar-toggle .icon-bar {
     background-color: blue;
-    position: absolute;
+    /*position: absolute;*/
 }
 
 .navbar-brand {
@@ -14,24 +18,45 @@
     font-style: italic;
     font-family: cursive;
 }
-.navbar-right li a:hover {
-    -webkit-animation: circle 1.5s ease-in forwards;
+/* Issue 1*/
+@keyframes circle {
+    from {color: red;}
+    to {color: yellow;}
 }
 
+.navbar-right li a:hover {
+    -webkit-animation-name: circle;
+    -webkit-animation-duration: 1.5s;
+    -webkit-animation-timing-function: ease-in;
+    -webkit-animation-direction: forwards;
+}
+
+
 body {
+
     background-repeat: no-repeat;
     -webkit-background-size: cover;
     background-size: cover;
 }
 
-.container {
+/* Issue #2 */
+.worship {
+    background:  url("../Home.jpg") repeat-x center;
+    height: 500px;
     left: 0;
-    line-height: 200px;
-    margin: auto;
-    margin-top: -100px;
-    position: absolute;
-    top: 50%;
+    z-index: 1;
+    /*line-height: 500px;*/
+    margin: 10px 0 0 0;
+    /*margin-top: -100px;*/
+    /*position: absolute;*/
     width: 100%;
+}
+.welcome {
+    margin-top: 100px;
+}
+
+.welcome p {
+    margin-top: 80px;
 }
 
 h4 {
@@ -55,8 +80,10 @@ p {
 
 footer {
     position: absolute;
+    background-color: #000000;
     bottom: 0px;
-    right: 0px;
-    left: 0px;
-    padding: 1rem;
+    width: 100%;
+    /*right: 0px;
+    left: 0px;*/
+    padding: 2rem;
 }
