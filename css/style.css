@@ -1,13 +1,19 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 .scrollbar {
     max-height: 150px;
     overflow: auto;
 }
 =======
+=======
+>>>>>>> 3a48b3ce35625d81dda884dddbe89eef29ab7e4d
 header {
     z-index: 10;
 }
 
+<<<<<<< HEAD
+>>>>>>> 3a48b3ce35625d81dda884dddbe89eef29ab7e4d
+=======
 >>>>>>> 3a48b3ce35625d81dda884dddbe89eef29ab7e4d
 .navbar-header .navbar-toggle .icon-bar {
     background-color: blue;
@@ -42,6 +48,14 @@ li {
     from {color: red;}
     to {color: yellow;}
 }
+<<<<<<< HEAD
+=======
+/* Issue 1*/
+@keyframes circle {
+    from {color: red;}
+    to {color: yellow;}
+}
+>>>>>>> 3a48b3ce35625d81dda884dddbe89eef29ab7e4d
 
 .navbar-right li a:hover {
     -webkit-animation-name: circle;
@@ -60,6 +74,7 @@ body {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 /*.welcome {
     left: 0px;
     line-height: 200px;
@@ -67,6 +82,8 @@ body {
     margin-top: -100px;
     top: 50%;
 =======
+=======
+>>>>>>> 3a48b3ce35625d81dda884dddbe89eef29ab7e4d
 /* Issue #2 */
 .worship {
     background:  url("../Home.jpg") repeat-x center;
@@ -77,12 +94,22 @@ body {
     margin: 10px 0 0 0;
     /*margin-top: -100px;*/
     /*position: absolute;*/
+<<<<<<< HEAD
+>>>>>>> 3a48b3ce35625d81dda884dddbe89eef29ab7e4d
+=======
 >>>>>>> 3a48b3ce35625d81dda884dddbe89eef29ab7e4d
     width: 100%;
     position: absolute;
 }
 */
 
+.welcome {
+    margin-top: 100px;
+}
+
+.welcome p {
+    margin-top: 80px;
+}
 .welcome {
     margin-top: 100px;
 }
@@ -122,9 +149,15 @@ footer {
     background-color: #000000;
     bottom: 0px;
 <<<<<<< HEAD
+<<<<<<< HEAD
     right: 0px;
     left: 0px
     width: 100%;
+=======
+    width: 100%;
+    /*right: 0px;
+    left: 0px;*/
+>>>>>>> 3a48b3ce35625d81dda884dddbe89eef29ab7e4d
 =======
     width: 100%;
     /*right: 0px;
