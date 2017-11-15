@@ -106,6 +106,17 @@ header {
     margin-top: 60px;
 }
 
+button {
+    margin-top: 50px;
+    padding: 10px 28px;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border-color: green;
+    border-radius: 8px;
+    color: lightblue;
+    letter-spacing: 2px;
+}
+
 .footer {
     position: fixed;
     bottom: 0px;
