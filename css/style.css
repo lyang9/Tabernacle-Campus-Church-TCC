@@ -1,9 +1,3 @@
-body {
-    width: 100%;
-    height: 100%;
-    overflow: scroll;
-}
-
 .navbar-inverse {
     border-color: black;
     background-color: black;
@@ -56,19 +50,16 @@ body {
 }
 
 header {
-    background-image: url("../Home.jpg");
+    background-image: url("../church.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    position: absolute;
+    position: relative;
     margin-top: -20px;
     padding: 0px;
     height: 100%;
     width: 100%;
-    display: block;
+    display: inline-block;
     z-index: 1;
     text-align: center;
 }
@@ -88,7 +79,7 @@ header {
     font-size: 40px;
     letter-spacing: 3px;
     font-family: Courier;
-    color: beige;
+    color: mintcream;
 }
 
 .header-content .header-content-inner h1, h3 {
@@ -105,6 +96,7 @@ header {
     text-align: center;
     font-family: Cursive;
     font-size: medium;
+    color: lightblue;
     margin-top: 50px;
 }
 
@@ -113,14 +105,44 @@ button {
     padding: 10px 28px;
     background-color: transparent;
     background-repeat: no-repeat;
-    border-color: green;
+    border-color: lightblue;
     border-radius: 8px;
     color: lightblue;
     letter-spacing: 2px;
 }
+a:hover {
+    text-decoration: none;
+}
 
+.fadeInDown h1, h3 {
+    animation-delay: .50s;
+}
+
+.pulse {
+    animation-delay: .50s;
+    animation-iteration-count: 2;
+}
+
+section {
+    padding: 40px 0;
+}
+
+.section-heading {
+    margin-top: 0px;
+}
+
+.fa-stack {
+    margin-top: 20px;
+}
+
+
+
+
+
+/*
 .footer {
-    position: fixed;
+    position: absolute;
+    display: inline-block;
     bottom: 0px;
     left: 0px
     width: 100%;
@@ -128,4 +150,5 @@ button {
     color: white;
     padding: 2rem;
 }
+*/
 
