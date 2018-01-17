@@ -1,3 +1,4 @@
+/* navbar */
 .navbar-inverse {
     border-color: black;
     background-color: black;
@@ -49,6 +50,7 @@
     background-color: blue;
 }
 
+/* header */
 header {
     background-image: url("../church.jpg");
     background-repeat: no-repeat;
@@ -124,6 +126,7 @@ a:hover {
     animation-iteration-count: 2;
 }
 
+/* value */
 section {
     padding: 40px 0;
 }
@@ -153,6 +156,7 @@ section {
     border-color: blue;
 }
 
+/* mission */
 img {
     float: left;
     width: 550px;
@@ -170,6 +174,7 @@ img {
     text-align: center;
 }
 
+/* team */
 .text-right .text-muted {
     text-align: justify;
     display: block;
